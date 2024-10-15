@@ -33,7 +33,7 @@ app.put('/:id', async (req, res) => {
     });
 
     return res.send(car);
-})
+});
 
 app.post('/', async (req, res) => {
     const car = new Car({
@@ -41,16 +41,13 @@ app.post('/', async (req, res) => {
         model: req.body.model,
         year: req.body.year,
         image_url: req.body.image_url
-    })
+    });
 
     await car.save();
     return res.send(car);
-})
+});
 
 app.listen(port, () => {
     mongoose.connect('mongodb+srv://leonardo:4Sayqc1wzhKoDBTt@api-node.pzmv5.mongodb.net/?retryWrites=true&w=majority&appName=api-node');
     console.log(`Aplicação rodando na porta: ${port}`);
 });
-
-
-// 4Sayqc1wzhKoDBTt
