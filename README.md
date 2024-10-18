@@ -1,24 +1,24 @@
 # api-node-mongodb
 Este projeto foi desenvolvido para criar uma API utilizando Node.js e MongoDB. O objetivo principal é realizar operações CRUD (Create, Read, Update, Delete) para o cadastro de carros
 
-Funcionalidades Implementadas:
+ # Funcionalidades Implementadas:
 
-Cadastro de Carros: Adicionar novos carros.
+**Cadastro de Carros**: Adicionar novos carros.
 
-Leitura de Carros: Recuperar a lista de todos os carros cadastrados ou consultar um carro específico pelo seu ID.
+**Leitura de Carros**: Recuperar a lista de todos os carros cadastrados ou consultar um carro específico pelo seu ID.
 
-Atualização de Carros: Modificar os dados de um carro já cadastrado.
+**Atualização de Carros**: Modificar os dados de um carro já cadastrado.
 
-Remoção de Carros: Excluir um carro do banco de dados.
+**Remoção de Carros**: Excluir um carro do banco de dados.
 
-Tecnologias Utilizadas:
+# Tecnologias Utilizadas:
 
-Node.js: Para construir o backend da aplicação.
-Express: Framework utilizado para gerenciar rotas e middlewares.
-MongoDB: Banco de dados NoSQL utilizado para armazenar os dados dos carros.
-Mongoose: ODM (Object Data Modeling) para facilitar a interação entre o Node.js e o MongoDB.
+**Node.js**: Para construir o backend da aplicação.
+**Express**: Framework utilizado para gerenciar rotas e middlewares.
+**MongoDB**: Banco de dados NoSQL utilizado para armazenar os dados dos carros.
+**Mongoose**: ODM (Object Data Modeling) para facilitar a interação entre o Node.js e o MongoDB.
 
-Como Executar o Projeto:
+ # Como Executar o Projeto:
 
 Clone o repositório:
 
