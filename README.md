@@ -3,9 +3,12 @@ Este projeto foi desenvolvido para criar uma API utilizando Node.js e MongoDB. O
 
 Funcionalidades Implementadas:
 
-Cadastro de Carros: Adicionar novos carros
+Cadastro de Carros: Adicionar novos carros.
+
 Leitura de Carros: Recuperar a lista de todos os carros cadastrados ou consultar um carro específico pelo seu ID.
+
 Atualização de Carros: Modificar os dados de um carro já cadastrado.
+
 Remoção de Carros: Excluir um carro do banco de dados.
 
 Tecnologias Utilizadas:
