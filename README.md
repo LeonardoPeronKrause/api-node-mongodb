@@ -14,8 +14,11 @@ Este projeto foi desenvolvido para criar uma API utilizando Node.js e MongoDB. O
 # Tecnologias Utilizadas:
 
 **Node.js**: Para construir o backend da aplicação.
+
 **Express**: Framework utilizado para gerenciar rotas e middlewares.
+
 **MongoDB**: Banco de dados NoSQL utilizado para armazenar os dados dos carros.
+
 **Mongoose**: ODM (Object Data Modeling) para facilitar a interação entre o Node.js e o MongoDB.
 
  # Como Executar o Projeto:
